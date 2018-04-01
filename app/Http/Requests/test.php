@@ -14,7 +14,7 @@ class test extends FormRequest
      */
     public function authorize()
     {
-        return Auth::user()->UC;
+        return true;
     }
 
     /**
